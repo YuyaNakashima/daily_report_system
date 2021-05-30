@@ -24,6 +24,7 @@
 
             <input type="hidden" name="_token" value="${_token}" />
             <button type="submit">ログイン</button>
+            <a href="<c:url value='/employees/new' />">新規従業員の登録</a>
         </form>
     </c:param>
 </c:import>
